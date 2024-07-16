@@ -1,0 +1,16 @@
+.rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 125px;
+    border-top: 4px solid #2271D1;
+    background-color: #000000;
+}
+
+.logo {
+    height: 40px;
+    width: 168.45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

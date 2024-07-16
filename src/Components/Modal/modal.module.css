@@ -1,0 +1,109 @@
+.modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #03122f31;
+  }
+  
+.conteudo {
+    border: 5px solid #6BD1FF;
+    background-color: #03122f;
+    border-radius: 10px;
+    width: 50vw;
+    max-height: 95%;
+    justify-content: center;
+    overflow-y: scroll;
+    
+}
+
+.secao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  flex-direction: column;
+  padding: 1.5rem 3rem;
+  
+}
+
+.botaoSair {
+    position: relative;
+    top: 0.7rem;
+    left: 21rem;
+    font-size: 1.25rem;
+    color: #ffffff;
+    cursor: pointer;
+    border: 3px solid #ffffff;
+    background-color: transparent;
+    border-radius: 50%;
+    margin-right: 0.7rem;
+  }
+
+.titulo {
+  color: #2271D1;
+  font-size: 3rem;
+  font-weight: 900;
+  padding-bottom: 1.25rem;
+  margin: 0;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.25rem;
+}
+
+.label {
+    display: block;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.input {
+    background-color: #03122FC2;
+    color: #ffffff;
+    box-shadow: 10px 10px 30px #021935;
+    height: 3.5rem;
+    width: 28rem;
+    border: 3px solid #2271D1;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    padding: 0.8rem;
+    box-sizing: border-box;
+}
+
+.input:focus {
+  outline: none
+}
+
+.btn {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 900;
+  text-align: center;
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  height: 3.5rem;
+  width: 45%;
+}
+
+
+.btn:active {
+  color: #2271D1;
+  border: 2px solid #2271D1;
+  background-color: #000000E5;
+}
+
+.botoes {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0.3rem;
+}

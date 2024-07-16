@@ -1,0 +1,25 @@
+.container {
+    background-color: #202020;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    gap: 30px
+}
+
+.lista {
+    display: flex;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 2rem;
+    gap: 20px
+}
+
+.imagem {
+    height: 200px;
+}
+
+.span {
+    height: 100%;
+}
